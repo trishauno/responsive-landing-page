@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 1.5%;
+}
+
+.logo{
+    width: 70px;
+    border-radius: 5px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 8px 0;
+}
+
+.navlogo img{
+    width: 140px;
+}
+
+.navlinks{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+}
+
+.navlinks .bttn{
+    background: white;
+    color: black;
+    padding: 8px 30px;
+    border-radius: 4px;
+}
+
+.content{
+    margin-top: 180px;
+    color: rgb(126, 123, 123);
+}
+
+.content h1{
+    font-size: 55px;
+}
+
+.content p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+
+.navlinks2{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navlinks2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.navlinks2 .bttnn{
+    background: white;
+    color: black;
+    padding: 8px 30px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.arrow a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 60px;
+}
+
+.arrow a :hover {
+    background-color: #ddd;
+    color: black;
+}
+    
+.arrow .previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+    
+.arrow .next {
+    background-color:rgb(17, 16, 16);
+    color: white;
+}
+
+@media (max-width:700px){
+    .navlogo{
+        flex-basis: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .navlinks{
+        justify-content: center;
+    }
+
+    .navlinks a{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .navlinks .bttn{
+        background: transparent;
+        color: rgb(243, 241, 241);
+        padding: 0;
+    }
+
+    .content h1{
+        font-size: 27px;
+    }
+
+    .content{
+        margin-top: 85px;
+    }
+
+    .navlinks2 .bttnn{
+        padding: 4px 15px;
+    }
+
+    .arrow a{
+        padding: 4px 8px;
+        margin-top: 150px;
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    .content p{
+        font-size: 9px;
+    }
+
+}
+
