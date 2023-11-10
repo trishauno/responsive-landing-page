@@ -130,7 +130,8 @@ nav{
     }
 
     .content h1{
-        font-size: 27px;
+        font-size: 34px;
+        text-align: center;
     }
 
     .content{
@@ -139,17 +140,20 @@ nav{
 
     .navlinks2 .bttnn{
         padding: 4px 15px;
+        margin-left: 160px;
     }
 
     .arrow a{
         padding: 4px 8px;
         margin-top: 200px;
-        margin-left: 52px;
+        margin-left: 80px;
         text-align: center;
     }
 
     .content p{
         font-size: 9px;
+        margin-left: 6px;
+        text-align: center;
     }
 
 }
